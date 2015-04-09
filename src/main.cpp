@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
     if(argc != 6)
     {
-        cout << "Ops!! Invalid parameters!!!\n"; 
+        cout << "Oops!! Invalid parameters!!!\n"; 
         printf("Usage: sudo %s <src hostname/IP> <source port> <dst hostname/IP> <dst port> <data>\n", argv[0]);
         return 0;
     }
